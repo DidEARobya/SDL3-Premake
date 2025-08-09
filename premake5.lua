@@ -2,7 +2,7 @@ project "SDL3"
 	kind "SharedLib"
 	language "C++"
 	staticruntime "off"
-	warnings "off0"
+	warnings "off"
 
 	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
 	objdir ("int/" .. outputdir .. "/%{prj.name}")
