@@ -122,9 +122,6 @@
     <ClInclude Include="include\SDL3\SDL.h" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="include\Debug-windows-x86_64\SDL3" />
-    <None Include="include\Dist-windows-x86_64\SDL3" />
-    <None Include="include\Release-windows-x86_64\SDL3" />
     <None Include="src\audio" />
     <None Include="src\events" />
     <None Include="src\gpu" />

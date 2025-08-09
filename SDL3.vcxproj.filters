@@ -4,15 +4,6 @@
     <Filter Include="include">
       <UniqueIdentifier>{89AF369E-F58E-B539-FEA6-40106A051C9B}</UniqueIdentifier>
     </Filter>
-    <Filter Include="include\Debug-windows-x86_64">
-      <UniqueIdentifier>{D389BBE7-BF44-AB93-68FC-23DE5496F523}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="include\Dist-windows-x86_64">
-      <UniqueIdentifier>{00E6CDE9-6CF3-FBCF-F5D9-F7BA61E6C786}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="include\Release-windows-x86_64">
-      <UniqueIdentifier>{8DE9E73A-790F-B2A1-6255-376D4E1AD76D}</UniqueIdentifier>
-    </Filter>
     <Filter Include="include\SDL3">
       <UniqueIdentifier>{8EFBCF69-7A5E-5F0E-23E4-97C40F262B91}</UniqueIdentifier>
     </Filter>
@@ -26,15 +17,6 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="include\Debug-windows-x86_64\SDL3">
-      <Filter>include\Debug-windows-x86_64</Filter>
-    </None>
-    <None Include="include\Dist-windows-x86_64\SDL3">
-      <Filter>include\Dist-windows-x86_64</Filter>
-    </None>
-    <None Include="include\Release-windows-x86_64\SDL3">
-      <Filter>include\Release-windows-x86_64</Filter>
-    </None>
     <None Include="src\audio">
       <Filter>src</Filter>
     </None>
