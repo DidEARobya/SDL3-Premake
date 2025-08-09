@@ -14,7 +14,7 @@ project "SDL3"
 		"src/events",
 		"src/gpu",
 		"src/render",
-		"src/video"
+		"src/video",
 		"include/" .. outputdir .. "/SDL3"
 	}
 
