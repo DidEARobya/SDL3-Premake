@@ -15,7 +15,7 @@ project "SDL3"
 		"src/gpu",
 		"src/render",
 		"src/video",
-		"include/" .. objdir .. "/SDL3/**.lib"
+		"int/" .. outputdir .. "/SDL3/**.lib"
 	}
 
 	filter "system:windows"
